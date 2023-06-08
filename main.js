@@ -5,6 +5,10 @@ function renderOrgDetails() {
   console.log("render org details")
 }
 
+function getOrgDetails() {
+  console.log("Org details")
+}
+
 async function getGithubOrgs() {
   try {
     const response = await fetch(`${BASE_URL}/organizations`);
