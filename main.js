@@ -1,6 +1,10 @@
 const BASE_URL = 'https://api.github.com'
 const listEl = document.querySelector('.list-container');
 
+function getOrgDetails() {
+  console.log("Org details")
+}
+
 async function getGithubOrgs() {
   try {
     const response = await fetch(`${BASE_URL}/organizations`);
